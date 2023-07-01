@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneesh - Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,400;1,700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: light grey;
+            color: grey;
+            font-family: 'Poppins', sans-serif;
+            margin: auto;
+            padding: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: white;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 34px;
+            /* right: 63%; */
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: grey;
+        }
+
+        nav ul li a:hover {
+            color: red;
+            font-size: 1.02rem;
+            text-decoration: underline;
+        }
+
+        .left {
+            font-size: 3rem;
+            margin: 0px 250px;
+            font-style: italic;
+
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+
+            /* width: 500px; */
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0px;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            width: auto;
+            font-size: 3rem;
+            margin: 50px 0px;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* width: auto; */
+
+
+
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: white;
+            color: black;
+            border: 2px solid grey;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0px;
+        }
+
+        .rightsection img {
+
+            width: 80%;
+
+
+
+        }
+
+        .purple {
+            color: red;
+            font-style: italic;
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #element {
+            font-size: 20px;
+            color: grey;
+            font-style: italic;
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0px;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 64px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+            /* height: 80vh; */
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: black;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            /* border: 2px solid red; */
+        }
+
+        .secondsection .box .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: black;
+            margin: 0px 120px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+            color: black;
+          
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+           
+        }
+
+        footer {
+            background-color: #a9b1d5;
+            height: auto;
+
+        }
+        footer h1{
+            color: red;
+            font-size: 4rem;
+           font-style: italic;
+           margin: 0px -200px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+        .footer-second{
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: black;
+            padding: 12px 0px;
+        }
+      
+        
+
+        .para {
+            color: grey;
+            font-size: 20px;
+        }
+
+        .connect {
+            display: flex;
+            color: black;
+            font-size: 20px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .firstsection a img {
+          
+            width: 30px;
+            margin: 0px 10px;
+            
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+           
+        }
+        .footer a img{
+            width: 40px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="left"> MG</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home<a /></li>
+                    <li><a href="/">About<a /></li>
+                    <li><a href="/">Services<a /></li>
+                    <li><a href="/">Projects<a /></li>
+                    <li><a href="/">Contact Me<a /></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">Hi, I am <br> <span class="purple">Maneesh</span>
+                <div class="purple">Goyal</div>
+
+                <!-- <span id="element"></span> -->
+                <div class="para">
+                    <p>A creative Web developer with a passion for creating user-friendly and visually appealing
+                        websites.</p>
+                </div>
+                <div class="connect">Connect with me</div>
+
+                    <div class="icon">          
+                <a href="https://www.instagram.com/iam_agrawal7" target="_blanks"><img src="insta.png" alt=""></a>
+                <a href="https://www.facebook.com/iam_agrawal7" target="_blank"><img src="facebook.png" alt=""></a>
+                <a href="https://www.whatsapp.com/iam_agrawal7"target="_blank"><img src="whatsapp.png" alt=""></a>
+                <a href="https://www.twitter.com/iam_agrawal7"target="_blank"><img src="twitter.png" alt=""></a>
+                <a href="https://www.phone.com/iam_agrawal7"target="_blank"><img src="call.png" alt=""></a></div> 
+            
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="pg.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+
+            <span class="text-gray">
+                What I have done so far
+            </span>
+
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer -pintrest(2023-*)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nulla nesciunt. Ex
+                        doloremque excepturi magnam. Maiores impedit provident libero eos consequuntur architecto in?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="vertical-title">
+                        Node js Developer-facebook(2023-*)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nulla nesciunt. Ex
+                        doloremque excepturi magnam. Maiores impedit provident libero eos consequuntur architecto in?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer-Instagram (2023-*)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nulla nesciunt. Ex
+                        doloremque excepturi magnam. Maiores impedit provident libero eos consequuntur architecto in?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">
+                        Javascript Developer-twitter (2023-*)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nulla nesciunt. Ex
+                        doloremque excepturi magnam. Maiores impedit provident libero eos consequuntur architecto in?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="you.png" alt="">
+                    <div class="vertical-title">
+                    React js Developer-YouTube (2023-*)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nulla nesciunt. Ex
+                        doloremque excepturi magnam. Maiores impedit provident libero eos consequuntur architecto in?
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+        </section>
+
+    </main>
+    <!-- typed.js cdn -->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1>MG</h1>
+            </div>
+            <div class="footer-second">
+              <div>Connect With me</div>
+
+   <div class="connect">
+    <div class="bar">
+        <a href=""><img src="insta.png" alt=""></a>
+        <a href=""><img src="facebook.png" alt=""></a>
+        <a href=""><img src="whatsapp.png" alt=""></a>
+        <a href=""><img src="twitter.png" alt=""></a>
+        <a href=""><img src="call.png" alt=""></a>
+    </div>
+   </div>
+   
+   
+            </div>
+        </div>
+        <div class="footer-rights">
+                   
+                
+            Copyright &#169; www.Maneeshgoyal.com / All rights reversed
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' '],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
